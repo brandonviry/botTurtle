@@ -1,0 +1,658 @@
+Microsoft Windows [version 10.0.19044.2251]
+
++ 2 %
+------------------------------Pour la couleur:violet
++ 3 %
+------------------------------Pour la couleur:red
++ 4 %
+------------------------------Pour la couleur:red
++ 5 %
+------------------------------Pour la couleur:gray
++ 6 %
+------------------------------Pour la couleur:red
++ 7 %
+------------------------------Pour la couleur:green
++ 8 %
+------------------------------Pour la couleur:brown
++ 9 %
+------------------------------Pour la couleur:indigo
++ 10 %
+------------------------------Pour la couleur:gray
++ 11 %
+------------------------------Pour la couleur:purple
++ 12 %
+------------------------------Pour la couleur:orange
++ 13 %
+------------------------------Pour la couleur:blue
++ 14 %
+------------------------------Pour la couleur:green
++ 15 %
+------------------------------Pour la couleur:violet
+32 %
+------------------------------Pour la couleur:brown
++ 33 %
+------------------------------Pour la couleur:yellow
++ 34 %
+------------------------------Pour la couleur:yellow
++ 35 %
+------------------------------Pour la couleur:violet
++ 36 %
+------------------------------Pour la couleur:gray
++ 37 %
+------------------------------Pour la couleur:orange
++ 38 %
+------------------------------Pour la couleur:orange
++ 39 %
+------------------------------Pour la couleur:violet
++ 40 %
+------------------------------Pour la couleur:gray
++ 41 %
+------------------------------Pour la couleur:purple
++ 42 %
+------------------------------Pour la couleur:violet
++ 43 %
+------------------------------Pour la couleur:green
++ 44 %
+------------------------------Pour la couleur:indigo
++ 45 %
+------------------------------Pour la couleur:green
++ 46 %
+------------------------------Pour la couleur:purple
++ 47 %
+------------------------------Pour la couleur:brown
+64 %
+------------------------------Pour la couleur:violet
++ 65 %
+------------------------------Pour la couleur:indigo
++ 66 %
+------------------------------Pour la couleur:green
++ 67 %
+------------------------------Pour la couleur:blue
++ 68 %
+------------------------------Pour la couleur:purple
++ 69 %
+------------------------------Pour la couleur:gray
++ 70 %
+------------------------------Pour la couleur:violet
++ 71 %
+------------------------------Pour la couleur:yellow
++ 72 %
+------------------------------Pour la couleur:brown
++ 73 %
+------------------------------Pour la couleur:green
++ 74 %
+------------------------------Pour la couleur:pink
++ 75 %
+------------------------------Pour la couleur:pink
++ 76 %
+------------------------------Pour la couleur:gray
++ 77 %
+------------------------------Pour la couleur:indigo
++ 78 %
+------------------------------Pour la couleur:indigo
++ 79 %
+------------------------------Pour la couleur:pink
++ 80 %
+---------------------------Pour la couleur:yellow
++ 97 %
+------------------------------Pour la couleur:red
++ 98 %
+------------------------------Pour la couleur:orange
++ 99 %
+############################## -FIN
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 134, in <module>
+    showinfo("etat du programme ", "FIN", option="OK")
+NameError: name 'showinfo' is not defined
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+############################## -FIN
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 135, in <module>
+    messagebox.showinfo("etat du programme ", "FIN", option="OK")
+NameError: name 'messagebox' is not defined
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+############################## -FIN
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 133, in <module>
+    from tkinter.filedialog.messagebox import *
+ModuleNotFoundError: No module named 'tkinter.filedialog.messagebox'; 'tkinter.filedialog' is not a package
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+############################## -FIN
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 137, in <module>
+    tkinter.messagebox.showinfo("Titre de la boîte de dialogue", "Mon message","ok")
+TypeError: showinfo() takes from 0 to 2 positional arguments but 3 were given
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+############################## -FIN
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 137, in <module>
+    tkinter.messagebox.showinfo("Titre de la boîte de dialogue", "Mon message",option="ok")
+  File "C:\Users\VIRY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\tkinter\messagebox.py", line 88, in showinfo
+    return _show(title, message, INFO, OK, **options)
+  File "C:\Users\VIRY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\tkinter\messagebox.py", line 76, in _show
+    res = Message(**options).show()
+  File "C:\Users\VIRY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+_tkinter.TclError: bad option "-option": must be -default, -detail, -icon, -message, -parent, -title, or -type
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+.py", line 104, in <module>
+    lst = [goBottomToLeft(100), goLeftToTop(
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 57, in goLeftToTop
+    turtle.right(180)
+  File "<string>", line 8, in right
+  File "C:\Users\VIRY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\turtle.py", line 1679, in right
+    self._rotate(-angle)
+  File "C:\Users\VIRY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\turtle.py", line 3278, in _rotate
+    self._update()
+  File "C:\Users\VIRY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\turtle.py", line 2661, in _update
+    self._update_data()
+  File "C:\Users\VIRY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\turtle.py", line 2647, in _update_data
+    self.screen._incrementudc()
+  File "C:\Users\VIRY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\turtle.py", line 1293, in _incrementudc
+    raise Terminator
+turtle.Terminator
+
+E:\Porgrammation\git\botTurtle>
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 118, in <module>
+ine 16, in <module>
+    progress = tk.Progressbar(window, orient="horizontal", length=200, mode="determinate")
+AttributeError: module 'tkinter' has no attribute 'Progressbar'
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 16, in <module>
+    progress = tk.Progressbar(window, orient="horizontal", length=200, mode="determinate")
+AttributeError: module 'tkinter' has no attribute 'Progressbar'
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 5, in <module>
+    import wx
+ModuleNotFoundError: No module named 'wx'
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+
+E:\Porgrammation\git\botTurtle>
+E:\Porgrammation\git\botTurtle>py tex.py
+
+E:\Porgrammation\git\botTurtle>py tex.py
+
+mmation\git\botTurtle>py tex.py
+
+E:\Porgrammation\git\botTurtle>py tex.py
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 121, in <module>
+    frame = ProgressFrame()
+TypeError: ProgressFrame.__init__() missing 3 required positional arguments: 'parent', 'title', and 'max_value'
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+
+E:\Porgrammation\git\botTurtle>git add *
+
+E:\Porgrammation\git\botTurtle>git commit -m "foli sur paterne4-1 > shemas4-1"
+[main 368b404] foli sur paterne4-1 > shemas4-1
+ 14 files changed, 9991 insertions(+)
+ create mode 100644 Resultat de turtle_2023_1_2_23_20..eps
+ create mode 100644 Resultat de turtle_2023_1_2_23_32..eps
+ create mode 100644 Resultat de turtle_2023_1_3_0_8.eps
+ create mode 100644 Resultat de turtle_2023_1_3_10_11.eps
+ create mode 100644 Resultat de turtle_2023_1_3_10_4.eps
+ create mode 100644 Resultat de turtle_2023_1_3_7_35.eps
+ create mode 100644 Resultat de turtle_2023_1_3_7_39.eps
+it\botTurtle>py shemas4-1plusop.py
+
+E:\Porgrammation\git\botTurtle>git add *
+
+E:\Porgrammation\git\botTurtle>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Resultat de turtle_2023_1_3_10_20.eps
+        new file:   res4-1.PNG
+
+
+E:\Porgrammation\git\botTurtle>git commit -m "res de shemas4-1"
+[main 5d69aac] res de shemas4-1
+ 2 files changed, 668 insertions(+)
+ create mode 100644 Resultat de turtle_2023_1_3_10_20.eps
+ create mode 100644 res4-1.PNG
+
+E:\Porgrammation\git\botTurtle>git push
+Enter passphrase for key '/c/Users/VIRY Brandon (HSK)/.ssh/id_ed25519':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 91.41 KiB | 295.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+d 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:brandonviry/botTurtle.git
+   5d69aac..62a7acb  main -> main
+
+E:\Porgrammation\git\botTurtle>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+E:\Porgrammation\git\botTurtle>py baseshemas4-1.py
+
+E:\Porgrammation\git\botTurtle>py baseshemas4-1.py
+Appuyer une touche pour arreter ........
+
+E:\Porgrammation\git\botTurtle>git add *
+
+E:\Porgrammation\git\botTurtle>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   baseshemas4-1.py
+
+
+E:\Porgrammation\git\botTurtle>git rm README.md
+error: the following file has changes staged in the index:
+    README.md
+(use --cached to keep the file, or -f to force removal)
+nd state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+re you have the correct access rights
+and the repository exists.
+
+E:\Porgrammation\git\botTurtle>git commit -m "base shemas4-1"
+[main 95b1601] base shemas4-1
+ 2 files changed, 87 insertions(+), 260 deletions(-)
+ delete mode 100644 README.md
+ create mode 100644 baseshemas4-1.py
+
+E:\Porgrammation\git\botTurtle>git push
+Enter passphrase for key '/c/Users/VIRY Brandon (HSK)/.ssh/id_ed25519':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 640 bytes | 640.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:brandonviry/botTurtle.git
+   62a7acb..95b1601  main -> main
+
+E:\Porgrammation\git\botTurtle>git add *
+
+E:\Porgrammation\git\botTurtle>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+ README.md                                 color.csv        paterne4-2motif.png   shemas3-1.py
+'Resultat de turtle_2023_1_2_23_20..eps'   paterne1.PNG     paterne4.png          shemas4-1.py
+'Resultat de turtle_2023_1_2_23_32..eps'   paterne2.PNG     res2.PNG              shemas4-1plusop.py
+'Resultat de turtle_2023_1_3_0_8.eps'      paterne3.PNG     res3.PNG
+'Resultat de turtle_2023_1_3_7_35.eps'     paterne4-1.PNG   shemas.py
+'Resultat de turtle_2023_1_3_7_39.eps'     paterne4-2.PNG   shemas3-0.py
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+------------------------------Pour la couleur:red
++ 1 %
+------------------------------Pour la couleur:yellowts: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.97 KiB | 1.97 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:brandonviry/botTurtle.git
+   95b1601..24bb33f  main -> main
+
+E:\Porgrammation\git\botTurtle>ls
+ README.md                                'Resultat de turtle_2023_1_3_10_4.eps'   baseshemas4-1.py   paterne4-2.PNG        shemas.py
+mation\git\botTurtle>+ 16 %
+------------------------------Pour la couleur:brown
++ 17 %
+------------------------------Pour la couleur:orange
++ 18 %
+------------------------------Pour la couleur:brown
++ 19 %
+------------------------------Pour la couleur:pink
++ 20 %
+------------------------------Pour la couleur:brown
++ 21 %
+------------------------------Pour la couleur:purple
++ 22 %
+------------------------------Pour la couleur:green
++ 23 %
+------------------------------Pour la couleur:gray
++ 24 %
+------------------------------Pour la couleur:indigo
++ 25 %
+------------------------------Pour la couleur:gray
++ 26 %
+------------------------------Pour la couleur:red
++ 27 %
+------------------------------Pour la couleur:green
++ 28 %
+------------------------------Pour la couleur:gray
++ 29 %
+------------------------------Pour la couleur:red
++ 30 %
+------------------------------Pour la couleur:indigo
+
++ 63 %
+------------------------------Pour la couleur:gray
++ ------------------------------Pour la couleur:orange
++ 81 %
+------------------------------Pour la couleur:orange
++ 82 %
+------------------------------Pour la couleur:purple
++ 83 %
+------------------------------Pour la couleur:red
++ 84 %
+------------------------------Pour la couleur:green
++ 85 %
+------------------------------Pour la couleur:blue
++ 86 %
+------------------------------Pour la couleur:red
++ 87 %
+------------------------------Pour la couleur:blue
++ 88 %
+------------------------------Pour la couleur:orange
++ 89 %
+------------------------------Pour la couleur:purple
++ 90 %
+------------------------------Pour la couleur:yellow
++ 91 %
+------------------------------Pour la couleur:pink
++ 92 %
+------------------------------Pour la couleur:red
++ 93 %
+------------------------------Pour la couleur:violet
++ 94 %
+.options))
+_tkinter.TclError: bad option "-option": must be -default, -detail, -icon, -message, -parent, -title, or -type
+
+E:############################## -FIN
+PAUSE
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 13, in <module>
+    progress = tk.Progressbar(window, orient="horizontal", length=200, mode="determinate")
+AttributeError: module 'tkinter' has no attribute 'Progressbar'
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 16, in <module>
+    progress = tk.Progressbar(window, orient="horizontal", length=200, mode="determinate")
+AttributeError: module 'tkinter' has no attribute 'Progressbar'
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop    goBottomToLeft(100)
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 40, in goBottomToLeft
+    turtle.right(90)
+  File "<string>", line 5, in right
+py
+
+E:\Porgrammation\git\botTurtle>py tex.py
+
+E:\Porgrammation\git\botTurtle>
+E:\Porgrammation\git\botTurtle>py tex.py
+
+E:\Porgrammation\git\botTurtle>py tex.py
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\tex.py", line 32, in <module>
+    frame.m_gauge3.SetValue(50)
+AttributeError: 'ProgressFrame' object has no attribute 'm_gauge3'
+
+E:\Porgrammation\git\botTurtle>py tex.py
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\tex.py", line 35, in <module>
+    frame.update_progress(50)
+TypeError: ProgressFrame.update_progress() takes 1 positional argument but 2 were given
+
+E:\Porgrammation\git\botTurtle>py tex.py
+
+E:\Porgrammation\git\botTurtle>py tex.py
+
+E:\Porgra create mode 100644 Resultat de turtle_2023_1_3_7_49.eps
+ create mode 100644 Resultat de turtle_2023_1_3_8_23.eps
+ create mode 100644 Resultat de turtle_2023_1_3_9_37.eps
+ create mode 100644 color.csv
+ create mode 100644 shemas4-1.py
+ create mode 100644 shemas4-1plusop.py
+ committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+E:\Porgrammation\git\botTurtle>git commit -m "info"
+[main 62a7acb] info
+ 1 file changed, 177 insertions(+)
+
+E:\Porgrammation\git\botTurtle>git push
+Enter passphrase for key '/c/Users/VIRY Brandon (HSK)/.ssh/id_ed25519':
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.81 KiB | 1.81 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reuse
+E:\Porgrammation\git\botTurtle>git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+(use "git restore --staged <file>..." to unstage)
+        deleted:    README.md
+        new file:   baseshemas4-1.py
+
+
+E:\Porgrammation\git\botTurtle>git push
+Enter passphrase for key '/c/Users/VIRY Brandon (HSK)/.ssh/id_ed25519':
+Enter passphrase for key '/c/Users/VIRY Brandon (HSK)/.ssh/id_ed25519':
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make su
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   README.md
+
+
+E:\Porgrammation\git\botTurtle>git push
+Enter passphrase for key '/c/Users/VIRY Brandon (HSK)/.ssh/id_ed25519':
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+E:\Porgrammation\git\botTurtle>git commit -m "info"
+[main 24bb33f] info
+ 1 file changed, 360 insertions(+)
+ create mode 100644 README.md
+'   paterne3.PNG       res3.PNG              shemas4-1plusop.py
+'Resultat de turtle_2023_1_3_10_20.eps'   'Resultat de turtle_2023_1_3_9_37.eps'   paterne4-1.PNG     res4-1.PNG            tex.py
+
+E:\Porgrammation\git\botTurtle>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+E:\Porgram+ 31 %
+------------------------------Pour la couleur:violet
++ + 48 %
+------------------------------Pour la couleur:pink
++ 49 %
+------------------------------Pour la couleur:orange
++ 50 %
+------------------------------Pour la couleur:green
++ 51 %
+------------------------------Pour la couleur:red
++ 52 %
+------------------------------Pour la couleur:red
++ 53 %
+------------------------------Pour la couleur:gray
++ 54 %
+------------------------------Pour la couleur:green
++ 55 %
+------------------------------Pour la couleur:gray
++ 56 %
+------------------------------Pour la couleur:brown
+RY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\tkinter\messagebox.py", line 76, in _show
+    res = Message(**options).show()
+  File "C:\Users\VIRY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(selfturtle.Terminator
+
+E:\Porgrammation\git\botTurtle>
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 141, in <module>
+    update_progress(i)
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 9, in update_progress
+    progress.set(value)
+  File "C:\Users\VIRY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\tkinter\__init__.py", line 3497, in set
+    self.tk.call(self._w, 'set', value)
+_tkinter.TclError: invalid command name ".!scale"
+
+E:\Porgrammation\git\botTurtle>py shemas4-1plusop.py
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", lE:\Porgrammation\git\botTurtle>py tex.py
+
+E:\Porgrammation\git\botTurtle>py tex.py
+
+E:\Porgrammation\git\botTurtle>py tex.py
+p to date with 'origin/main'.
+
+Changes to be
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history ato read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+E:\Porgrammation\git\botTurtle>git rm *
+error: the following files have changes staged in the index:
+    README.md
+    baseshemas4-1.py
+(use --cached to keep the file, or -f to force removal)
+
+E:\Porgrammation\git\botTurtle>git rm -f README.md
+rm 'README.md'
+
+E:\Porgrammation\git\botTurtle>git status
+at de turtle_2023_1_3_10_11.eps'   'Resultat de turtle_2023_1_3_8_23.eps+ 57 %
+------------------------------Pour la couleur:gray
++ 58 %
+------------------------------Pour la couleur:yellow
++ 59 %
+------------------------------Pour la couleur:orange
++ 60 %
+------------------------------Pour la couleur:brown
++ 61 %
+------------------------------Pour la couleur:indigo
++ 62 %
+------------------------------Pour la couleur:violet------------------------------Pour la couleur:brown
++ 95 %
+------------------------------Pour la couleur:gray
++ 96 %
+---############################## -FIN
+Traceback (most recent call last):
+  File "E:\Porgrammation\git\botTurtle\shemas4-1plusop.py", line 135, in <module>
+    showinfo("etat du programme ", "FIN", option="OK")
+  File "C:\Users\VIRY Brandon (HSK)\AppData\Local\Programs\Python\Python310\Lib\tkinter\messagebox.py", line 88, in showinfo
+    return _show(title, message, INFO, OK, **options)
+  File "C:\Users\VI
+E:\Porgrammation\git\botTurtle>py tex. create mode 100644 tex.py
+
+E:\Porgrammation\git\botTurtle>git push
+le>git push
+Enter passphrase for key '/c/Users/VIRY Brandon (HSK)/.ssh/id_ed25519':
+Enumerating objects: 4, done.
+Counting objec(c) Microsoft Corporation. Tous droits réservés.
+
+C:\Users\VIRY Brandon (HSK)>cd E:\Porgrammation\git\botTurtle
+
+C:\Users\VIRY Brandon (HSK)>e:
+
+E:\Porgrammation\git\botTurtle>ls'Resultat de turtle_2023_1_2_23_20..eps'  'Resultat de turtle_2023_1_3_7_35.eps'   color.csv          paterne4-2motif.png   shemas3-0.py
+'Resultat de turtle_2023_1_2_23_32..eps'  'Resultat de turtle_2023_1_3_7_39.eps'   paterne1.PNG       paterne4.png          shemas3-1.py
+'Resultat de turtle_2023_1_3_0_8.eps'     'Resultat de turtle_2023_1_3_7_49.eps'   paterne2.PNG       res2.PNG              shemas4-1.py
+'ResultEnter passphrase for key '/c/Users/VIRY Brandon (HSK)/.ssh/id_ed25519':
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 26.30 KiB | 1.14 MiB/s, done.
+Total 16 (delta 10), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (10/10), done.
+To github.com:brandonviry/botTurtle.git
+   7dea649..368b404  main -> main
+
+E:\Porgrammation\gremote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:brandonviry/botTurtle.git
+   368b404..5d69aac  main -> main
+
+E:\Porgrammation\git\botTurtle>git add *
+
+E:\Porgrammation\git\botTurtle>git status
+On branch main
+Your branch is uOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  
+E:\Porgrammation\git\botTurt
